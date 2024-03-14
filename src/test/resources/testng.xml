@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ProjectName_Suite">
+	<listeners>
+		<listener class-name="com.listners.MyListners" />
+	</listeners>
+	<test thread-count="5" name="Automation Test Cases">
+		<classes>
+			<class name="com.testcases.RegisterTest" />
+			<class name="com.testcases.LoginTest" />
+			<class name="com.testcases.SearchTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

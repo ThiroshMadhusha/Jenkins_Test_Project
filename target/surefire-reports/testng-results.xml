@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-13T23:01:47 IST" name="ProjectName_Suite" finished-at="2024-03-13T23:02:53 IST" duration-ms="66041">
+    <groups>
+    </groups>
+    <test started-at="2024-03-13T23:01:47 IST" name="Automation Test Cases" finished-at="2024-03-13T23:02:53 IST" duration-ms="66041">
+      <class name="com.testcases.SearchTest">
+        <test-method is-config="true" signature="beforeSearchmethod()[pri:0, instance:com.testcases.SearchTest@67c27493]" started-at="2024-03-13T23:02:43 IST" name="beforeSearchmethod" finished-at="2024-03-13T23:02:46 IST" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSearchmethod -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:0, instance:com.testcases.SearchTest@67c27493]" started-at="2024-03-13T23:02:46 IST" name="verifySearchWithInvalidProduct" finished-at="2024-03-13T23:02:46 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="afterSearchMethos()[pri:0, instance:com.testcases.SearchTest@67c27493]" started-at="2024-03-13T23:02:46 IST" name="afterSearchMethos" finished-at="2024-03-13T23:02:46 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSearchMethos -->
+        <test-method is-config="true" signature="beforeSearchmethod()[pri:0, instance:com.testcases.SearchTest@67c27493]" started-at="2024-03-13T23:02:46 IST" name="beforeSearchmethod" finished-at="2024-03-13T23:02:49 IST" duration-ms="2434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSearchmethod -->
+        <test-method signature="verifySearchWithOutAnyProduct()[pri:0, instance:com.testcases.SearchTest@67c27493]" started-at="2024-03-13T23:02:49 IST" name="verifySearchWithOutAnyProduct" finished-at="2024-03-13T23:02:49 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithOutAnyProduct -->
+        <test-method is-config="true" signature="afterSearchMethos()[pri:0, instance:com.testcases.SearchTest@67c27493]" started-at="2024-03-13T23:02:49 IST" name="afterSearchMethos" finished-at="2024-03-13T23:02:49 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSearchMethos -->
+        <test-method is-config="true" signature="beforeSearchmethod()[pri:0, instance:com.testcases.SearchTest@67c27493]" started-at="2024-03-13T23:02:49 IST" name="beforeSearchmethod" finished-at="2024-03-13T23:02:52 IST" duration-ms="2783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSearchmethod -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.testcases.SearchTest@67c27493]" started-at="2024-03-13T23:02:52 IST" name="verifySearchWithValidProduct" finished-at="2024-03-13T23:02:53 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="afterSearchMethos()[pri:0, instance:com.testcases.SearchTest@67c27493]" started-at="2024-03-13T23:02:53 IST" name="afterSearchMethos" finished-at="2024-03-13T23:02:53 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSearchMethos -->
+      </class> <!-- com.testcases.SearchTest -->
+      <class name="com.testcases.LoginTest">
+        <test-method is-config="true" signature="beforeLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:07 IST" name="beforeLoginMethod" finished-at="2024-03-13T23:02:10 IST" duration-ms="2739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoginMethod -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:10 IST" name="verifyLoginWithValidCredentials" data-provider="supplierValidCredentials" finished-at="2024-03-13T23:02:11 IST" duration-ms="947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotooricap@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:11 IST" name="afterLoginMethod" finished-at="2024-03-13T23:02:11 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLoginMethod -->
+        <test-method is-config="true" signature="beforeLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:11 IST" name="beforeLoginMethod" finished-at="2024-03-13T23:02:14 IST" duration-ms="2854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoginMethod -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:14 IST" name="verifyLoginWithValidCredentials" data-provider="supplierValidCredentials" finished-at="2024-03-13T23:02:15 IST" duration-ms="861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotooricap1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:15 IST" name="afterLoginMethod" finished-at="2024-03-13T23:02:15 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLoginMethod -->
+        <test-method is-config="true" signature="beforeLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:15 IST" name="beforeLoginMethod" finished-at="2024-03-13T23:02:18 IST" duration-ms="2967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoginMethod -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:18 IST" name="verifyLoginWithValidCredentials" data-provider="supplierValidCredentials" finished-at="2024-03-13T23:02:19 IST" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotooricap2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:19 IST" name="afterLoginMethod" finished-at="2024-03-13T23:02:19 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLoginMethod -->
+        <test-method is-config="true" signature="beforeLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:19 IST" name="beforeLoginMethod" finished-at="2024-03-13T23:02:22 IST" duration-ms="2948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoginMethod -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:22 IST" name="verifyLoginWithValidCredentials" data-provider="supplierValidCredentials" finished-at="2024-03-13T23:02:23 IST" duration-ms="886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotooricap3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:23 IST" name="afterLoginMethod" finished-at="2024-03-13T23:02:23 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLoginMethod -->
+        <test-method is-config="true" signature="beforeLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:23 IST" name="beforeLoginMethod" finished-at="2024-03-13T23:02:26 IST" duration-ms="2953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoginMethod -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:26 IST" name="verifyLoginWithValidCredentials" data-provider="supplierValidCredentials" finished-at="2024-03-13T23:02:27 IST" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotooricap4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:27 IST" name="afterLoginMethod" finished-at="2024-03-13T23:02:27 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLoginMethod -->
+        <test-method is-config="true" signature="beforeLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:27 IST" name="beforeLoginMethod" finished-at="2024-03-13T23:02:30 IST" duration-ms="3120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoginMethod -->
+        <test-method signature="verifyloginWithInvalidCredentials()[pri:2, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:30 IST" name="verifyloginWithInvalidCredentials" finished-at="2024-03-13T23:02:31 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithInvalidCredentials -->
+        <test-method is-config="true" signature="afterLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:31 IST" name="afterLoginMethod" finished-at="2024-03-13T23:02:31 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLoginMethod -->
+        <test-method is-config="true" signature="beforeLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:31 IST" name="beforeLoginMethod" finished-at="2024-03-13T23:02:34 IST" duration-ms="3125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoginMethod -->
+        <test-method signature="verifyloginWithInvalidEmailAndValidPassword()[pri:3, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:34 IST" name="verifyloginWithInvalidEmailAndValidPassword" finished-at="2024-03-13T23:02:35 IST" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="afterLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:35 IST" name="afterLoginMethod" finished-at="2024-03-13T23:02:35 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLoginMethod -->
+        <test-method is-config="true" signature="beforeLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:35 IST" name="beforeLoginMethod" finished-at="2024-03-13T23:02:38 IST" duration-ms="3118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoginMethod -->
+        <test-method signature="verifyloginWithValidEmailAndInValidPassword()[pri:4, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:38 IST" name="verifyloginWithValidEmailAndInValidPassword" finished-at="2024-03-13T23:02:39 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithValidEmailAndInValidPassword -->
+        <test-method is-config="true" signature="afterLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:39 IST" name="afterLoginMethod" finished-at="2024-03-13T23:02:39 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLoginMethod -->
+        <test-method is-config="true" signature="beforeLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:39 IST" name="beforeLoginMethod" finished-at="2024-03-13T23:02:42 IST" duration-ms="2888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoginMethod -->
+        <test-method signature="verifyloginWithoutProvidingCredencials()[pri:5, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:42 IST" name="verifyloginWithoutProvidingCredencials" finished-at="2024-03-13T23:02:43 IST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithoutProvidingCredencials -->
+        <test-method is-config="true" signature="afterLoginMethod()[pri:0, instance:com.testcases.LoginTest@77fbd92c]" started-at="2024-03-13T23:02:43 IST" name="afterLoginMethod" finished-at="2024-03-13T23:02:43 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLoginMethod -->
+      </class> <!-- com.testcases.LoginTest -->
+      <class name="com.testcases.RegisterTest">
+        <test-method is-config="true" signature="beforeRegisterMethod()[pri:0, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:01:47 IST" name="beforeRegisterMethod" finished-at="2024-03-13T23:01:52 IST" duration-ms="5042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRegisterMethod -->
+        <test-method signature="registerAccountWithAllMandatoryFieldsValidCredentials()[pri:1, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:01:52 IST" name="registerAccountWithAllMandatoryFieldsValidCredentials" finished-at="2024-03-13T23:01:54 IST" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithAllMandatoryFieldsValidCredentials -->
+        <test-method is-config="true" signature="afterRegisterMethod()[pri:0, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:01:54 IST" name="afterRegisterMethod" finished-at="2024-03-13T23:01:54 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRegisterMethod -->
+        <test-method is-config="true" signature="beforeRegisterMethod()[pri:0, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:01:54 IST" name="beforeRegisterMethod" finished-at="2024-03-13T23:01:57 IST" duration-ms="2941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRegisterMethod -->
+        <test-method signature="registerAccountWithAllFieldsValidCredentials()[pri:2, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:01:57 IST" name="registerAccountWithAllFieldsValidCredentials" finished-at="2024-03-13T23:01:58 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithAllFieldsValidCredentials -->
+        <test-method is-config="true" signature="afterRegisterMethod()[pri:0, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:01:58 IST" name="afterRegisterMethod" finished-at="2024-03-13T23:01:58 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRegisterMethod -->
+        <test-method is-config="true" signature="beforeRegisterMethod()[pri:0, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:01:58 IST" name="beforeRegisterMethod" finished-at="2024-03-13T23:02:01 IST" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRegisterMethod -->
+        <test-method signature="registerAccountWithExistingValidCredentials()[pri:3, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:02:01 IST" name="registerAccountWithExistingValidCredentials" finished-at="2024-03-13T23:02:02 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithExistingValidCredentials -->
+        <test-method is-config="true" signature="afterRegisterMethod()[pri:0, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:02:02 IST" name="afterRegisterMethod" finished-at="2024-03-13T23:02:03 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRegisterMethod -->
+        <test-method is-config="true" signature="beforeRegisterMethod()[pri:0, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:02:03 IST" name="beforeRegisterMethod" finished-at="2024-03-13T23:02:05 IST" duration-ms="2862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRegisterMethod -->
+        <test-method signature="registerAccountWithOutProvideAnyDetails()[pri:4, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:02:05 IST" name="registerAccountWithOutProvideAnyDetails" finished-at="2024-03-13T23:02:06 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithOutProvideAnyDetails -->
+        <test-method is-config="true" signature="afterRegisterMethod()[pri:0, instance:com.testcases.RegisterTest@5876a9af]" started-at="2024-03-13T23:02:06 IST" name="afterRegisterMethod" finished-at="2024-03-13T23:02:06 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRegisterMethod -->
+      </class> <!-- com.testcases.RegisterTest -->
+    </test> <!-- Automation Test Cases -->
+  </suite> <!-- ProjectName_Suite -->
+</testng-results>

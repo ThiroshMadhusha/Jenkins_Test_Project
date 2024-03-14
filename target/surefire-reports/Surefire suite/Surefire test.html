@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 13 17:23:13 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>75 seconds (75972 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testcases.SearchTest.verifySearchWithValidProduct()'><b>verifySearchWithValidProduct</b><br>Test class: com.testcases.SearchTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;iPhon&quot;}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c80def01c49d0b1205d8ef1a0d052e6, findElement {using=link text, value=iPhon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\gggam\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8809/devtool..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c80def01c49d0b1205d8ef1a0d052e6
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.isDisplayed(Unknown Source)
+	at com.pages.SearchPage.successMessageDisplay(SearchPage.java:38)
+	at com.testcases.SearchTest.verifySearchWithValidProduct(SearchTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace478468106", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace478468106'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;iPhon&quot;}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c80def01c49d0b1205d8ef1a0d052e6, findElement {using=link text, value=iPhon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\gggam\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8809/devtool..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c80def01c49d0b1205d8ef1a0d052e6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.isDisplayed(Unknown Source)
+	at com.pages.SearchPage.successMessageDisplay(SearchPage.java:38)
+	at com.testcases.SearchTest.verifySearchWithValidProduct(SearchTest.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>10</td>
+<td>com.testcases.SearchTest@647fd8ce</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testcases.RegisterTest.registerAccountWithOutProvideAnyDetails()'><b>registerAccountWithOutProvideAnyDetails</b><br>Test class: com.testcases.RegisterTest</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.RegisterTest@6193932a</td></tr>
+<tr>
+<td title='com.testcases.RegisterTest.registerAccountWithAllMandatoryFieldsValidCredentials()'><b>registerAccountWithAllMandatoryFieldsValidCredentials</b><br>Test class: com.testcases.RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.testcases.RegisterTest@6193932a</td></tr>
+<tr>
+<td title='com.testcases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.testcases.LoginTest<br>Parameters: amotooricap3@gmail.com, 12345</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.LoginTest@5db250b4</td></tr>
+<tr>
+<td title='com.testcases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.testcases.LoginTest<br>Parameters: amotooricap2@gmail.com, 12345</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.LoginTest@5db250b4</td></tr>
+<tr>
+<td title='com.testcases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.testcases.LoginTest<br>Parameters: amotooricap4@gmail.com, 12345</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.LoginTest@5db250b4</td></tr>
+<tr>
+<td title='com.testcases.SearchTest.verifySearchWithOutAnyProduct()'><b>verifySearchWithOutAnyProduct</b><br>Test class: com.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.SearchTest@647fd8ce</td></tr>
+<tr>
+<td title='com.testcases.SearchTest.verifySearchWithInvalidProduct()'><b>verifySearchWithInvalidProduct</b><br>Test class: com.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.SearchTest@647fd8ce</td></tr>
+<tr>
+<td title='com.testcases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.testcases.LoginTest<br>Parameters: amotooricap1@gmail.com, 12345</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.LoginTest@5db250b4</td></tr>
+<tr>
+<td title='com.testcases.LoginTest.verifyloginWithInvalidCredentials()'><b>verifyloginWithInvalidCredentials</b><br>Test class: com.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.LoginTest@5db250b4</td></tr>
+<tr>
+<td title='com.testcases.LoginTest.verifyloginWithoutProvidingCredencials()'><b>verifyloginWithoutProvidingCredencials</b><br>Test class: com.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.LoginTest@5db250b4</td></tr>
+<tr>
+<td title='com.testcases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.testcases.LoginTest<br>Parameters: amotooricap@gmail.com, 12345</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.LoginTest@5db250b4</td></tr>
+<tr>
+<td title='com.testcases.LoginTest.verifyloginWithValidEmailAndInValidPassword()'><b>verifyloginWithValidEmailAndInValidPassword</b><br>Test class: com.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.LoginTest@5db250b4</td></tr>
+<tr>
+<td title='com.testcases.RegisterTest.registerAccountWithAllFieldsValidCredentials()'><b>registerAccountWithAllFieldsValidCredentials</b><br>Test class: com.testcases.RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.testcases.RegisterTest@6193932a</td></tr>
+<tr>
+<td title='com.testcases.LoginTest.verifyloginWithInvalidEmailAndValidPassword()'><b>verifyloginWithInvalidEmailAndValidPassword</b><br>Test class: com.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.LoginTest@5db250b4</td></tr>
+<tr>
+<td title='com.testcases.RegisterTest.registerAccountWithExistingValidCredentials()'><b>registerAccountWithExistingValidCredentials</b><br>Test class: com.testcases.RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.testcases.RegisterTest@6193932a</td></tr>
+</table><p>
+</body>
+</html>

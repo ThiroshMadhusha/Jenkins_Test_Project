@@ -1,0 +1,33 @@
+#Maven "maven-surefire" Plugin --> Provide testNG XML File
+#When i Run this Project  help of Maven, Maven is going to invoke POM.XML file
+#POM.XML file is going to invoke maven-surefire-plugin
+#maven-surefire-plugin is going to invokde to testNG.XML file
+#testNG.XML file is going through the all the classes
+#All these classes invoke test
+
+#Run Maven Command in CMD
+#Open Project File Folder --> Run as Administrator --> Open CMD
+#Type Command --> mvn test --> press Enter
+
+#Note: "mvn test" is only work pc setup for the maven only.
+#If it is not work go and setup Maven in to the machine
+
+
+#If you have schedule running of your autmationts at odd timing
+#When you are not available to run the script
+
+#Everyday at 11Am you need to run scripts of the Project.
+#Some time we forgot.
+
+#That why we need to setup it with Jenkins
+
+#Setup GIT and Jenkins
+
+# 1. Go to Eclips Search Bar and Search GIT and Click Git Repository
+# 2. Right Click Project Main File --> Team --> Share Project
+# 3. Create Project GIT
+# 4. Right click on Project Folder --> Team --> Add to Index
+# 5. Right click on Project Folder --> Team --> Commit
+
+
+
