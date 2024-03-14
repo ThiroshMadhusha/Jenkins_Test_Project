@@ -29,5 +29,19 @@
 # 4. Right click on Project Folder --> Team --> Add to Index
 # 5. Right click on Project Folder --> Team --> Commit
 
+#https://github.com/ThiroshMadhusha/Jenkins_Test_Project.git
+
+#Get Created Git Repo URL
+
+# 6. Right click on Project Folder --> Team --> Remote --> Push
+# 7. Give Remote Repo URL | GitHub User Name 
+# 8. Give password Section for the Created Security Token Only. assword Did not get it
+
+#git init
+#git add README.md
+#git commit -m "first commit"
+#git branch -M main
+#git remote add origin https://github.com/ThiroshMadhusha/Jenkins_Test_Project.git
+#git push -u origin main
 
 
